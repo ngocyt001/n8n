@@ -1,6 +1,10 @@
 {
   "name": "n8n",
+<<<<<<< HEAD
   "version": "1.84.0",
+=======
+  "version": "1.83.2",
+>>>>>>> downgrade-1.83.2
   "description": "n8n Workflow Automation Tool",
   "main": "dist/index",
   "types": "dist/index.d.ts",

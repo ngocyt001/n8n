@@ -1,6 +1,10 @@
 {
   "name": "n8n-nodes-base",
+<<<<<<< HEAD
   "version": "1.83.0",
+=======
+  "version": "1.82.1",
+>>>>>>> downgrade-1.83.2
   "description": "Base nodes of n8n",
   "main": "index.js",
   "scripts": {

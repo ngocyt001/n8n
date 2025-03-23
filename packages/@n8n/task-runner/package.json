@@ -1,6 +1,10 @@
 {
   "name": "@n8n/task-runner",
+<<<<<<< HEAD
   "version": "1.21.0",
+=======
+  "version": "1.20.2",
+>>>>>>> downgrade-1.83.2
   "scripts": {
     "clean": "rimraf dist .turbo",
     "start": "node dist/start.js",

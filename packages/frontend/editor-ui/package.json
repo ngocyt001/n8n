@@ -1,6 +1,10 @@
 {
   "name": "n8n-editor-ui",
+<<<<<<< HEAD
   "version": "1.84.0",
+=======
+  "version": "1.83.2",
+>>>>>>> downgrade-1.83.2
   "description": "Workflow Editor UI for n8n",
   "main": "index.js",
   "scripts": {

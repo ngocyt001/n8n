@@ -1,6 +1,10 @@
 {
   "name": "@n8n/n8n-nodes-langchain",
+<<<<<<< HEAD
   "version": "1.84.0",
+=======
+  "version": "1.83.1",
+>>>>>>> downgrade-1.83.2
   "description": "",
   "main": "index.js",
   "scripts": {

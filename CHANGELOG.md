@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 # [1.84.0](https://github.com/n8n-io/n8n/compare/n8n@1.83.0...n8n@1.84.0) (2025-03-17)
+=======
+## [1.83.2](https://github.com/n8n-io/n8n/compare/n8n@1.83.1...n8n@1.83.2) (2025-03-14)
+>>>>>>> downgrade-1.83.2
 
 
 ### Bug Fixes
 
+<<<<<<< HEAD
 * **AWS SES Node:** Encode template parameters properly ([#13570](https://github.com/n8n-io/n8n/issues/13570)) ([ca8d249](https://github.com/n8n-io/n8n/commit/ca8d249700e341ea79173a5d6d148205db0ff0ac))
 * **core:** Avoid using structuredClone on node descriptions ([#13832](https://github.com/n8n-io/n8n/issues/13832)) ([d2df154](https://github.com/n8n-io/n8n/commit/d2df154b49ad4e89ac1b5e5b1b49df57a377175e))
 * **core:** Clean run data for dirty nodes properly, including their children ([#13821](https://github.com/n8n-io/n8n/issues/13821)) ([b3f9cde](https://github.com/n8n-io/n8n/commit/b3f9cde3fd1a22d007d323785fa6ff09f945dd8a))
@@ -39,6 +44,20 @@
 * **Merge Node:** Better pairedItem mapping in combineBySql operation if SELECT query ([#13849](https://github.com/n8n-io/n8n/issues/13849)) ([881d3f8](https://github.com/n8n-io/n8n/commit/881d3f8771b547adf6e4bfe060575b1992b1d34c))
 * **MongoDB Atlas Vector Store Node:** Add Mongo db vector store Node ([#12924](https://github.com/n8n-io/n8n/issues/12924)) ([3d87228](https://github.com/n8n-io/n8n/commit/3d872287fbedb72ded1172b2fcbe0b82dc2b8fd6))
 * **WhatsApp Trigger Node:** New option to opt-out from message status updates ([#13751](https://github.com/n8n-io/n8n/issues/13751)) ([9c040ee](https://github.com/n8n-io/n8n/commit/9c040ee5a533ab23f913614a4d56927956ac7a8a))
+=======
+* **editor:** Fix options parameters that have extra displayName field ([#13928](https://github.com/n8n-io/n8n/issues/13928)) ([90113e9](https://github.com/n8n-io/n8n/commit/90113e94874362c07a80d2da1b9e4e2fd48b4705))
+* Execute method should be assigned to a Routing node even if it has webhook defined ([#13910](https://github.com/n8n-io/n8n/issues/13910)) ([3593114](https://github.com/n8n-io/n8n/commit/35931146a7268c8a26fad605b5cec1e7cf1467b0))
+
+
+
+## [1.83.1](https://github.com/n8n-io/n8n/compare/n8n@1.83.0...n8n@1.83.1) (2025-03-12)
+
+
+### Bug Fixes
+
+* **core:** Clean run data for dirty nodes properly, including their children ([#13821](https://github.com/n8n-io/n8n/issues/13821)) ([492230a](https://github.com/n8n-io/n8n/commit/492230af0a6d6dccfd19894ab41e6988a30a4c92))
+* **core:** Find correct start nodes when the first node after that has no run data has pinned data ([#13784](https://github.com/n8n-io/n8n/issues/13784)) ([967f9e1](https://github.com/n8n-io/n8n/commit/967f9e1b5344aab2e688c1edff387a8001459e5f))
+>>>>>>> downgrade-1.83.2
 
 
 

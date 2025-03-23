@@ -404,7 +404,11 @@ export class WorkflowExecute {
 		const filteredNodes = graph.getNodes();
 
 		// 3. Find the Start Nodes
+<<<<<<< HEAD
 		const dirtyNodes = graph.getNodesByNames(dirtyNodeNames);
+=======
+		const dirtyNodes = new Set(workflow.getNodes(dirtyNodeNames));
+>>>>>>> downgrade-1.83.2
 		runData = cleanRunData(runData, graph, dirtyNodes);
 		let startNodes = findStartNodes({ graph, trigger, destination, runData, pinData });
 

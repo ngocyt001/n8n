@@ -28,7 +28,11 @@ export function cleanRunData(
 			for (const subNodeConnection of subNodeConnections) {
 				// Sub nodes never use the Main connection type, so this filters out
 				// the connection that goes upstream of the node to clean.
+<<<<<<< HEAD
 				if (subNodeConnection.type === NodeConnectionTypes.Main) {
+=======
+				if (subNodeConnection.type === NodeConnectionType.Main) {
+>>>>>>> downgrade-1.83.2
 					continue;
 				}
 

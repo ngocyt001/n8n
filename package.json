@@ -1,6 +1,10 @@
 {
   "name": "n8n-monorepo",
+<<<<<<< HEAD
   "version": "1.84.0",
+=======
+  "version": "1.83.2",
+>>>>>>> downgrade-1.83.2
   "private": true,
   "engines": {
     "node": ">=20.15",
